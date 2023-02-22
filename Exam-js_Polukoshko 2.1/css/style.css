@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin-top: 40px;
+}
+
+.slides-item {
+  width: 100%;
+  height: 500px;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.slides {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#left-button,
+#right-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 30px;
+}
+
+#left-button {
+  left: 0;
+}
+
+#right-button {
+  right: 0;
+}
+
+.dots-block {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+
+.dots-item {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 7px;
+  background: #000;
+}
+
+.dots-item:last-child {
+  margin: 0;
+}
+
+.active {
+  background: rgb(76, 12, 160);
+}
+.text {
+  position: absolute;
+  top: 175px;
+  width: 300px;
+  left: 50px;
+  font-size: 20px;
+  color: rgba(49, 47, 47, 0.89);
+}
+
+.block,
+.block2 {
+  position: absolute;
+  top: 50px;
+  background-color: #ffffff8c;
+  width: 370px;
+  height: 340px;
+  left: 30px;
+}
+
+.block3,
+.block5 {
+  position: absolute;
+  top: 50px;
+  background-color: #ffffff8c;
+  width: 370px;
+  height: 340px;
+  right: 30px;
+}
+
+.block4 {
+  position: absolute;
+  top: 50px;
+  background-color: #ffffff8c;
+  width: 400px;
+  height: 380px;
+  left: 30px;
+}
+
+h2,
+.header,
+.header4 {
+  position: absolute;
+  top: 50px;
+  font-size: 50px;
+  color: #585454b3;
+  left: 45px;
+  width: 400px;
+}
+
+.header3 {
+  position: absolute;
+  top: 50px;
+  font-size: 50px;
+  color: #585454b3;
+  right: -20px;
+  width: 400px;
+}
+
+.header5 {
+  position: absolute;
+  top: 60px;
+  font-size: 50px;
+  color: #585454b3;
+  right: -5px;
+  width: 400px;
+}
+
+.text2 {
+  position: absolute;
+  top: 125px;
+  width: 350px;
+  left: 50px;
+  font-size: 20px;
+  color: rgba(49, 47, 47, 0.89);
+}
+
+.text3 {
+  position: absolute;
+  top: 190px;
+  width: 350px;
+  right: 40px;
+  font-size: 20px;
+  color: rgba(49, 47, 47, 0.89);
+}
+.text4 {
+  position: absolute;
+  top: 230px;
+  width: 350px;
+  left: 50px;
+  font-size: 20px;
+  color: rgba(49, 47, 47, 0.89);
+}
+
+.text5 {
+  position: absolute;
+  top: 140px;
+  width: 350px;
+  right: 40px;
+  font-size: 20px;
+  color: rgba(49, 47, 47, 0.89);
+}
+
+.img_1,
+.img_2,
+.img_3,
+.img_4,
+.img_5 {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  object-fit: cover;
+}
